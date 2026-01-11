@@ -1,0 +1,82 @@
+/*Home*/
+
+.col{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-img-top{
+  height: 18rem;
+}
+.card{
+  margin: 15px;
+  width: 16rem;
+  background-color: aqua;
+}
+
+/*Log*/
+
+.log{
+  margin: 20px;
+}
+.log input{
+  margin: 10px;
+}
+
+/*Footer*/
+
+#back{
+    display: flex;
+    background-color: rgb(26, 26, 65);
+    color: white;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.detail{
+    width: 9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail p:hover{
+    text-decoration: underline;
+}
+.title{
+    color: gray;
+    width: 8rem;
+}
+.address{
+    border-left: 1px solid white;
+    height: 300px;
+    width: 20rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1{
+    color: gray;
+}
+.address p{
+    padding-left: 20px;
+    
+}
+.address1 p{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#last{
+    background-color: rgb(26, 26, 65);
+    color: white;
+}
+#last1{
+    border-top: 1px solid white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#last1 p{
+    padding: 30px;
+}
+#last1 #ksa{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding-left: 20vw;
+    font-size: 30px;
+}
